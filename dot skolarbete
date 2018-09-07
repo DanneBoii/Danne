@@ -1,0 +1,96 @@
+	//Dot theDot(&window);
+	//theDot.setColor(sf::Color::Blue);
+	//theDot.moveRight(100.0f);
+	//theDot.moveDown(400.0f);
+	//theDot.stamp();
+	//for (int nrOfTimes=0;nrOfTimes<600;nrOfTimes++)
+	//{
+	//	theDot.stamp();
+	//	theDot.moveRight(1.0f);
+	//}
+
+	//Dot duttaren(&window);
+	//duttaren.setColor(sf::Color::Red);
+	//duttaren.moveRight(100.0f);
+	//duttaren.moveDown(200.0f);
+	//duttaren.stamp();
+	//for (int nrOfTimes = 0; nrOfTimes < 300; nrOfTimes++)
+	//{
+	//	duttaren.stamp();
+	//	duttaren.moveDown(1.0f);
+	//}
+
+	//Dot dot1(&window);
+	//dot1.setColor(sf::Color::Green);
+	//dot1.moveRight(100.0f);
+	//dot1.moveDown(100.0f);
+	//dot1.stamp();
+	//for (int nrOfTimes = 0; nrOfTimes < 400; nrOfTimes++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveRight(1.0f);
+	//	dot1.moveDown(1.0f);
+	//}
+
+	//Dot dot1(&window);
+	//dot1.setColor(sf::Color::Blue);
+	//dot1.moveRight(500.0f);
+	//dot1.moveDown(100.0f);
+	//dot1.stamp();
+	//for (int nrOfTimes = 0; nrOfTimes < 400; nrOfTimes++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveLeft(1.0f);
+	//	dot1.moveDown(1.0f);
+	//}
+
+	//Dot dot1(&window);
+	//dot1.setColor(sf::Color::Red);
+	//dot1.moveDown(200.0f);
+	//dot1.moveRight(200.0f);
+	//dot1.setWidth(15.0f);
+	//dot1.stamp();
+	//for (int right = 0; right < 300; right++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveRight(1.0f);
+	//}
+	//for (int down = 0; down < 300; down++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveDown(1.0f);
+	//}
+	//for (int back = 0; back < 300; back++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveLeft(1.0f);
+	//}
+	//for (int up = 0; up < 300; up++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveUp(1.0f);
+	//}
+	//dot1.setColor(sf::Color::Green);
+	//dot1.moveDown(125.0f);
+	//dot1.moveRight(125.0f);
+	//dot1.stamp();
+	//for (int right = 0; right < 50; right++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveRight(1.0f);
+	//}
+	//for (int down = 0; down < 50; down++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveDown(1.0f);
+	//}
+	//for (int left = 0; left < 50; left++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveLeft(1.0f);
+	//}
+	//for (int up = 0; up < 50; up++)
+	//{
+	//	dot1.stamp();
+	//	dot1.moveUp(1.0f);
+	//}
