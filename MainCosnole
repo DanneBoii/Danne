@@ -1,0 +1,163 @@
+	//cout << "C++ is fantastic!" << endl;//
+	//int numberOne = 0;
+	//int numberTwo = 0;
+	//int sum = 0;
+	//cout << "Skriv ett nummer: ";
+	//cin >> numberOne;
+	//cin.ignore();
+	//cout << "Skriv ett till nummer: ";
+	//cin >> numberTwo;
+	//cin.ignore();
+	//sum = numberOne + numberTwo;
+	//cout <<"Summan utav " << numberOne << "+" << numberTwo <<" blir "<< sum << endl;
+
+	//string name = "";
+	//int birthYear = 0;
+	//int currentYear = 2018;
+	//int sum = 0;
+
+	//cout << "Input your name: ";
+	//cin >> name;
+	//cin.ignore();
+	//cout << "Input your birthday: ";
+	//cin >> birthYear;
+	//cin.ignore();
+	//sum = currentYear - birthYear;
+	//cout << "Hello " << name << ", you are " << sum  << " years old" << endl;
+
+	//int eggs = 0;
+	//int nr12Packs = 0;
+	//int sum = 0;
+	//cout << "Input number of eggs: ";
+	//cin >> eggs;
+	//cin.ignore();
+	//nr12Packs = eggs / 12;
+	//sum = eggs % 12;
+
+	//srand((unsigned)time(0));
+	//int number = 0;
+	//number = rand()%6+1;
+	//cout << number << endl;
+
+	/*cout << "Hello my friend, today is the day to create programs in C++" << endl;*/
+	/*cout << "I" << endl << "like" << endl << "C++" << endl << "programming" << endl;*/
+
+	//string name = "";
+	//string surName = "";
+	//cout << "Your last name? ";
+	//cin >> surName;
+	//cin.ignore();
+	//cout << "Your first name? ";
+	//cin >> name;
+	//cout << "Hello " << name << surName << "," << endl << "Welcome to the programming course!" << endl;
+
+	//int birthYear = 0;
+	//string month = "";
+	//int day = 0;
+	//cout << "Your birth year? ";
+	//cin >> birthYear;
+	//cin.ignore();
+	//cout << "Your birth month? ";
+	//cin >> month;
+	//cin.ignore();
+	//cout << "Your birth day? ";
+	//cin >> day;
+	//cin.ignore();
+	//cout << "Your birth date is the " << day << " of " << month << " in " << birthYear << endl;
+
+	//string name = "";
+	//string fruit = "";
+	//int number = 0;
+	//string city = "";
+	//string job = "";
+
+	//cout << "Input a name: ";
+	//cin >> name;
+	//cin.ignore();
+	//cout << "Input a fruit: ";
+	//cin >> fruit; 
+	//cin.ignore();
+	//cout << "Input an integer number: ";
+	//cin >> number;
+	//cin.ignore();
+	//cout << "Input a city: ";
+	//cin >> city;
+	//cin.ignore();
+	//cout << "Input an occupation: ";
+	//cin >> job;
+	//cin.ignore();
+	//cout << "In " << city << " there was a " << job << " named " << name << " who ate " << number << " " << fruit << ".";
+
+	//srand((unsigned)time(0));
+	//int lowerLimit = 0;
+	//int upperLimit = 0;
+	//int randNumber = 0;
+	//randNumber = rand() % (upperLimit - lowerLimit + 1) + lowerLimit;
+
+	//float distance = 0;
+	//float time = 0;
+	//double avaregeSpeed = 0.0;
+	//cout << "How many kilomiters was the trip? ";
+	//cin >> distance;
+	//cin.ignore();
+	//cout << "How many hours did it take? ";
+	//cin >> time;
+	//cin.ignore();
+	//avaregeSpeed = distance / time;
+	//cout << "Your average speed was: " << avaregeSpeed;
+
+	//float radius = 0;
+	//string colour = "";
+	//const double PI = 3.14;
+	//double sum = 0;
+
+	//cout << "Input the radius of a cirle in cm: ";
+	//cin >> radius;
+	//cin.ignore();
+	//cout << "Give the circle a colour: ";
+	//getline(cin, colour);
+	//sum = radius * radius * PI;
+	//cout << "The " << colour << " circle has an area of: " << sum;
+
+	//int nrOfTimes = 0;	
+	//while (nrOfTimes < 10)
+	//{
+	//	cout << "C++ is fun!" << endl;
+	//	nrOfTimes++;
+	//}
+
+	//srand((unsigned)time(0));
+	//int nrOfTimes = 0;
+	//int randomNr = 0;
+	//int sum = 0;
+	//while (nrOfTimes < 5);
+	//{
+	//randomNr = rand() % (99 - 10 + 1) + 10;
+	//sum = sum + randomNr;
+	//cout << randomNr <<" ";
+	//nrOfTimes++;
+    //}
+
+	//int number = 0;
+	//int sum = 0;
+	//int nrOfIntegers = 0;
+	//double average = 0.0;
+
+	//cout << "Enter a number: ";
+	//cin >> number;
+	//cin.ignore();
+	//while (number >= 0)
+	//{
+	//	nrOfIntegers++;
+	//	sum = sum + number;
+	//	cout << "Enter a number: ";
+	//	cin >> number;
+	//	cin.ignore();
+	//}
+	//average = (double)sum / nrOfIntegers;
+	//cout << "The average is: " << average;
+
+	//for (int i = 0; i < 8; i++)
+	//{
+	//	cout << "C++ is fantastic!" << endl;
+	//}
