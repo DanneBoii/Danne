@@ -1,0 +1,160 @@
+//int months = 12;
+	//int salary = 0;
+	//int year = 0;
+	//cout << "Whats your monthly salary? ";
+	//cin >> salary;
+	//cin.ignore();
+	//year = salary * months;
+	//cout << "Your yearly salary is " << year << "kr.";
+
+	//float rate = 12.3;
+	//int startSum = 150;
+	//int value = 0.0;
+	//float result = 0.0;
+
+	//cout << "Enter an integer: ";
+	//cin >> value;
+	//cin.ignore();
+	//result = startSum + value * rate;
+	//cout << "The result is: " << result;
+
+	//int dif = 32;
+	//float value = 0.0;
+	//float result = 0.0;
+
+	//cout << "Enter a temp in celcius and see what is is in Farenheit: ";
+	//cin >> value;
+	//cin.ignore();
+	//result = (value * 9) / 5 + dif;
+	//cout << "It is: " << result << endl;
+
+	//int value1, value2, result;
+	//cout << "Input an integer: ";
+	//cin >> value1;
+	//cin.ignore();
+	//cout << "Input another ineger: ";
+	//cin >> value2;
+	//cin.ignore();
+	//result = value1 + value2;
+	//cout << value1 << " + " << value2 << " = " << result << endl;
+	//result = value1 - value2;
+	//cout << value1 << " - " << value2 << " = " << result << endl;
+	//result = value1 * value2;
+	//cout << value1 << " * " << value2 << " = " << result << endl;
+	//result = value1 / value2;
+	//cout << value1 << " / " << value2 << " = " << result << endl;
+	//result = value1 % value2;
+	//cout << value1 << " % " << value2 << " = " << result << endl;
+
+	//int h = 0;
+	//int m = 0;
+	//int s = 0;
+	//int value = 0;
+
+	//cout << "Input hours: ";
+	//cin >> h;
+	//cin.ignore();
+	//cout << "Input minutes: ";
+	//cin >> m;
+	//cin.ignore();
+	//cout << "Input seconds: ";
+	//cin >> s;
+	//cin.ignore();
+
+	//value = (h*3600)+(m*60) + s;
+	//cout << "In only seconds the time is: " << value;
+
+	//int h = 0;
+	//int min = 0;
+	//int sec = 0;
+	//int value = 0;
+	//cout << "input time in seconds: ";
+	//cin >> value;
+	//cin.ignore();
+	//h = value / 3600;
+	//min = value % 3600 / 60;
+	//sec = value - h * 3600 - min * 60;
+	//cout << "Hours: " << h << endl;
+	//cout << "minutes: " << min << endl;
+	//cout << "seconds: " << sec << endl;
+
+	//int h = 0;
+	//int m = 0;
+	//int s = 0;
+	//int time = 0;
+	//cout << "Input times in seconds: ";
+	//cin >> time;
+	//cin.ignore();
+	//h = time / 3600;
+	//m = time % 3600 / 60;
+	//s = time - (h * 3600) - (m * 60);
+	//cout << "Hours: " << h << endl;
+	//cout << "Minutes: " << m << endl;
+	//cout << "Seconds: " << s << endl;
+
+	//int h1 = 0;
+	//int m1 = 0;
+	//int s1 = 0;
+	//int h2 = 0;
+	//int m2 = 0;
+	//int s2 = 0;
+	//int fh = 0;
+	//int fm = 0;
+	//int fs = 0;
+	//cout << "Input start hour: ";
+	//cin >> h1;
+	//cin.ignore();
+	//cout << "Input start minute: ";
+	//cin >> m1;
+	//cin.ignore();
+	//cout << "Input start second: ";
+	//cin >> s1;
+	//cin.ignore();
+	//cout << endl << "The start time is " << h1 << ":" << m1 << ":" << s1 << endl;
+	//cout << endl << "Input hours that has passed: ";
+	//cin >> h2;
+	//cin.ignore();
+	//cout << "Input minutes that has passed: ";
+	//cin >> m2;
+	//cin.ignore();
+	//cout << "Input seconds that has passed: ";
+	//cin >> s2;
+	//cin.ignore();
+	//fh = h1 + h2;
+	//fm = m1 + m2;
+	//fs = s1 + s2;
+	//while (fs > 60)
+	//{
+	//	fs = fs % 60;
+	//	fm++;
+	//}
+	//while (fm > 60)
+	//{
+	//	fm = fm % 60;
+	//	fh++;
+	//}
+	//cout << endl << "The final time is: " << fh << ":" << fm << ":" << fs << endl;
+
+	//float value = 0;
+	//float value2 = 0.0f;
+	//cout << "Enter an integer: ";
+	//cin >> value;
+	//cin.ignore();
+	//value2 = value * 0.01;
+	//cout << "You result is: " << value2;
+
+	//string name = "";
+	//float goals = 0.0;
+	//float games = 0.0;
+	//float avr = 0.0;
+	//cout << "Name of the player: ";
+	//getline(cin, name);
+	//cout << "Total number of goals: ";
+	//cin >> goals;
+	//cin.ignore();
+	//cout << "Total number of games: ";
+	//cin >> games;
+	//cin.ignore();
+	//
+	//avr = goals / games;
+	//cout << name << " did " << avr << " goals per game on average." << endl;
