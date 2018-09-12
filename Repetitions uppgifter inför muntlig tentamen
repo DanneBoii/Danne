@@ -88,3 +88,31 @@
 			cin.ignore();
 		}
 	}
+
+	//uppgift 3
+		srand((unsigned)time(0));
+	int input = 0;
+	int rndNr = 0;
+	int division = 0;
+	const int UPPERLIMIT = 50;
+	const int LOWERLIMIT = 10;
+
+	cout << "How many numbers? ";
+	cin >> input;
+	cin.ignore();
+
+	cout << "The numbers in the range [10..50] are: ";
+	for (int i = 0; i < input; i++)
+	{
+		rndNr = rand() % (UPPERLIMIT - LOWERLIMIT + 1) + LOWERLIMIT;
+		cout << rndNr << " ";
+		if (rndNr % 5 == 0)
+		{
+			division++;
+		}
+	}
+
+
+	cout << "\nThere are " << division << " number you can divide by 5, that is ";
+	division = (division * 100) / input;
+	cout << division << "% of the total.";
