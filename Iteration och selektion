@@ -15,3 +15,81 @@
     cin.ignore();
     avr = (v1 + v2 + v3 + v4 + v5) / 5;
     cout << "The average is: " << avr << endl;
+    
+    	//Uppgift 2 
+
+	srand((unsigned)time(0));
+	int upperLimit = 100;
+	int lowerLimit = 1;
+	int randomNr = 0;
+	int nrOfTimes = 0;
+
+	while (nrOfTimes < 10)
+	{
+		randomNr = rand() % (upperLimit - lowerLimit + 1) + lowerLimit;
+		cout << randomNr << " ";
+		nrOfTimes++;
+	}
+   
+   //Uppgift 4
+
+	int value = 0;
+
+	cout << "Enter an integer: ";
+	cin >> value;
+	cin.ignore();
+
+	for (int i = 0; i < 1; i++)
+	{
+		if (value != 0)
+		{
+			cout << "Enter an integer: ";
+			cin >> value;
+			cin.ignore();
+			i--;
+		}
+	}
+
+	//Uppgift 5
+
+	int upperLimit = 0;
+	int lowerLimit = 0;
+	int times = 0;
+
+	cout << "Input the lower limit of the interval: ";
+	cin >> lowerLimit;
+	cin.ignore();
+	cout << "Input the upper limit of the interval: ";
+	cin >> upperLimit;
+	cin.ignore();
+
+	cout << lowerLimit << " ";
+
+	while (lowerLimit < upperLimit)
+	{
+		lowerLimit++;
+		cout << lowerLimit << " ";
+	}
+
+	//Uppgift 6
+
+	int value = 0;
+	int times = 0;
+	int hardValue = 0;
+	
+
+	cout << "Input an integer: ";
+	cin >> value;
+	cin.ignore();
+	
+	hardValue = value;
+	
+	while (times < 10)
+	{
+		times++;
+		value = hardValue * times;
+		{
+			cout << times << " * " << hardValue << " = " << value << endl;
+		}
+		value = 0;
+	}
