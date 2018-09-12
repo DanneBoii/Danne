@@ -94,3 +94,29 @@
 	//	dot1.stamp();
 	//	dot1.moveUp(1.0f);
 	//}
+	
+	//Dot mainDot(&window);
+	//mainDot.setColor(sf::Color::Red);
+	//mainDot.setWidth(20.0f);
+	//mainDot.moveDown(400.0f);
+	//mainDot.moveRight(300.0f);
+	//mainDot.stamp();
+	//int f = 0;
+	//for (int right = 0; right < 200; right++)
+	//{
+	//	mainDot.moveRight(1.0f);
+	//	mainDot.stamp();
+	//}
+	//while (f < 200)
+	//{
+	//	mainDot.moveDown(1.0f);
+	//	mainDot.moveLeft(201.0f);
+	//	int g = 0;
+	//	while (g < 201)
+	//	{
+	//		mainDot.moveRight(1.0f);
+	//		mainDot.stamp();
+	//		g++;
+	//	}
+	//	f++;
+	//}
