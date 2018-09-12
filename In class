@@ -1,0 +1,28 @@
+	//Input nr of random numbers (100-400)
+
+	srand((unsigned)time(0));
+	int inputNr = 0;
+	int nrOfEvenNumber = 0;
+	int randNr = 0;
+	cout << "Input number of random values[100...400]: ";
+	cin >> inputNr;
+	cin.ignore();
+	for (int show =0; show < inputNr;show++)
+	{
+		randNr = rand() % 301 + 100;
+		cout << randNr << " ";
+		if (randNr % 2 == 0)
+		{
+			nrOfEvenNumber++;
+		}
+	}
+	if (nrOfEvenNumber > 1 || nrOfEvenNumber == 0)
+	{
+		cout << endl;
+		cout << "There are " << nrOfEvenNumber << " even numbers.";
+	}
+	else if (nrOfEvenNumber == 1)
+	{
+		cout << endl;
+		cout << "There is " << nrOfEvenNumber << " even number.";
+	}
