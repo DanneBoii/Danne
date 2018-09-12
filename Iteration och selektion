@@ -93,3 +93,42 @@
 		}
 		value = 0;
 	}
+	
+	//Uppgift 13
+	
+	srand((unsigned)time(0));
+	int random1 = 0;
+	int random2 = 0;
+	int answer = 0;
+	int guess = 0;
+	int times = 0;
+	double procent = 0.0;
+
+	cout << "Time for you to show your math skills, type -1 to exit and see how good you did." << endl;
+
+	while (guess != -1)
+	{
+		random1 = rand()%10 + 1;
+		random2 = rand()%10 + 1;
+		answer = random1 * random2;
+		cout << random1 << " * " << random2 << " = ";
+		cin >> guess;
+		cin.ignore();
+
+		if (guess == answer)
+		{
+			cout << "You gave the correct answer, Nice!" << endl;
+			procent++;
+			times++;
+		}
+
+		else
+		{
+			cout << "That answer is not correct, the correct answer is " << answer << endl;
+			times++;
+		}
+
+	}
+	times--;
+	procent = (procent*100) / times;
+	cout << "You guessed right " << procent << "% of the times";
