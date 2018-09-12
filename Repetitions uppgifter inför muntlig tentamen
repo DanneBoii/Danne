@@ -1,0 +1,54 @@
+   //Uppgift 1
+   
+  float v1, v2, v3, v4, v5 = 0.0f;
+	float avr = 0.0f;
+	cout << "Input an integer: ";
+	cin >> v1;
+	cout << "Input an integer: ";
+	cin >> v2;
+	cout << "Input an integer: ";
+	cin >> v3;
+	cout << "Input an integer: ";
+	cin >> v4;
+	cout << "Input an integer: ";
+	cin >> v5;
+	cin.ignore();
+	avr = (v1 + v2 + v3 + v4 + v5) / 5;
+	cout << "The average is: " << avr << endl;
+
+	srand((unsigned)time(0));
+	int randNr = 0;
+	int guessNr = 1;
+	int guessCorrect = 0;
+	int guessWrong = 0;
+	string guess = "";
+
+	cout << "I will randomize values in the range [1..10]." << endl;
+	cout << "Guess if the value is in the lower half or in the upper half of the interval: " << endl;
+
+	while (guessWrong < 1)
+	{
+		randNr = rand() % 10 + 1;
+
+		cout << endl << "Guess " << guessNr << "?: ";
+		guessNr++;
+
+		cin >> guess;
+		cin.ignore();
+
+		if ((guess == "lower" && (randNr > 0 && randNr <= 5)) || (guess == "upper" && (randNr > 5 && randNr <= 10)))
+		{
+			cout << "The value is " << randNr << ". You made it!";
+			guessCorrect++;
+		}
+		else
+		{
+			guessWrong++;
+		}
+	}
+
+	if (guessWrong > 0)
+	{
+		cout << "The value is " << randNr << ". Sorry, wrong geuss.\n";
+		cout << "You managed to guess correct " << guessCorrect << " times." << endl;
+	}
