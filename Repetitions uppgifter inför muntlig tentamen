@@ -91,8 +91,8 @@
 
 	//uppgift 3
 	
-		srand((unsigned)time(0));
-	double input = 0;
+	srand((unsigned)time(0));
+	int input = 0;
 	int rndNr = 0;
 	double division = 0;
 	const int UPPERLIMIT = 50;
@@ -112,7 +112,6 @@
 			division++;
 		}
 	}
-
 
 	cout << "\nThere are " << division << " number you can divide by 5, that is ";
 	division = (division * 100) / input;
