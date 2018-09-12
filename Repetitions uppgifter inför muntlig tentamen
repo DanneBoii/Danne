@@ -1,4 +1,4 @@
-   //Uppgift 1
+   //Average of 5
    
   float v1, v2, v3, v4, v5 = 0.0f;
 	float avr = 0.0f;
@@ -15,7 +15,9 @@
 	cin.ignore();
 	avr = (v1 + v2 + v3 + v4 + v5) / 5;
 	cout << "The average is: " << avr << endl;
-
+	
+	//Uppgift 1
+	
 	srand((unsigned)time(0));
 	int randNr = 0;
 	int guessNr = 1;
