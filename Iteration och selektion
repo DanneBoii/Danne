@@ -1,1 +1,17 @@
+   //Uppgift 1
 
+    double v1, v2, v3, v4, v5 = 0.00f;
+    double avr = 0.00f;
+    cout << "Input an integer: ";
+    cin >> v1;
+    cout << "Input an integer: ";
+    cin >> v2;
+    cout << "Input an integer: ";
+    cin >> v3;
+    cout << "Input an integer: ";
+    cin >> v4;
+    cout << "Input an integer: ";
+    cin >> v5;
+    cin.ignore();
+    avr = (v1 + v2 + v3 + v4 + v5) / 5;
+    cout << "The average is: " << avr << endl;
