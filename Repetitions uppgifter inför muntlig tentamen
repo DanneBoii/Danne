@@ -116,3 +116,37 @@
 	cout << "\nThere are " << division << " number you can divide by 5, that is ";
 	division = (division * 100) / input;
 	cout << division << "% of the total.";
+	
+	//Uppgift 4
+	
+	Dot mainDot(&window);
+	mainDot.setColor(sf::Color::Red);
+	mainDot.setWidth(10.0f);
+	mainDot.moveDown(400.0f);
+	mainDot.moveRight(175.0f);
+	mainDot.stamp();
+	for (int i = 0; i < 150; i++)
+	{
+		mainDot.moveRight(1.0f);
+		mainDot.stamp();
+	}
+	for (int i = 0; i < 150; i++)
+	{
+		mainDot.moveUp(1.0f);
+		mainDot.stamp();
+	}
+	for (int i = 0; i < 150; i++)
+	{
+		mainDot.moveRight(1.0f);
+		mainDot.stamp();
+	}
+	for (int i = 0; i < 150; i++)
+	{
+		mainDot.moveDown(1.0f);
+		mainDot.stamp();
+	}
+	for (int i = 0; i < 150; i++)
+	{
+		mainDot.moveRight(1.0f);
+		mainDot.stamp();
+	}
