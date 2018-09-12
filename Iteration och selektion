@@ -95,7 +95,6 @@
 	}
 	
 	//Uppgift 13
-	
 	srand((unsigned)time(0));
 	int random1 = 0;
 	int random2 = 0;
@@ -105,11 +104,12 @@
 	double procent = 0.0;
 
 	cout << "Time for you to show your math skills, type -1 to exit and see how good you did." << endl;
+	cout << endl;
 
 	while (guess != -1)
 	{
-		random1 = rand()%10 + 1;
-		random2 = rand()%10 + 1;
+		random1 = rand() % 10 + 1;
+		random2 = rand() % 10 + 1;
 		answer = random1 * random2;
 		cout << random1 << " * " << random2 << " = ";
 		cin >> guess;
@@ -121,14 +121,18 @@
 			procent++;
 			times++;
 		}
-
-		else
+		else if (guess != answer && guess != -1)
 		{
 			cout << "That answer is not correct, the correct answer is " << answer << endl;
 			times++;
 		}
+		else
+		{
+			cout << endl;
+			cout << "Exit" << endl;
+		}
 
 	}
-	times--;
-	procent = (procent*100) / times;
+	procent = (procent * 100) / times;
+	cout << endl;
 	cout << "You guessed right " << procent << "% of the times";
