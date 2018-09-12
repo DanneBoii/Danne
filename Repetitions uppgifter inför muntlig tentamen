@@ -92,9 +92,9 @@
 	//uppgift 3
 	
 		srand((unsigned)time(0));
-	int input = 0;
+	double input = 0;
 	int rndNr = 0;
-	int division = 0;
+	double division = 0;
 	const int UPPERLIMIT = 50;
 	const int LOWERLIMIT = 10;
 
