@@ -57,7 +57,7 @@
 	
 	//uppgift 2
 	
-		string password = "";
+	string password = "";
 	string password2 = "";
 	int match = 0;
 
