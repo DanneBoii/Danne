@@ -54,3 +54,37 @@
 		cout << "The value is " << randNr << ". Sorry, wrong geuss.\n";
 		cout << "You managed to guess correct " << guessCorrect << " times." << endl;
 	}
+	
+	//uppgift 2
+	
+		string password = "";
+	string password2 = "";
+	int match = 0;
+
+	cout << "Enter your password: ";
+	cin >> password;
+	cin.ignore();
+
+	while (match == 0)
+	{
+		cout << endl;
+		cout << "Please enter your password again: ";
+		cin >> password2;
+		cin.ignore();
+
+		if (password2 == password)
+		{
+			cout << endl;
+			cout << "Your password has been confirmed!";
+			match++;
+		}
+		else if (password2 != password)
+		{
+			cout << endl;
+			cout << "Your password does not match!";
+			cout << endl;
+			cout << "Enter your password: ";
+			cin >> password;
+			cin.ignore();
+		}
+	}
